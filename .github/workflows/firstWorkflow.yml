@@ -10,6 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    shell: bash
     steps:
       - name: checkout
         uses: actions/checkout@v5
