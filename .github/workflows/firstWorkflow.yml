@@ -38,6 +38,6 @@ jobs:
         uses: actions/hello-world-javascript-action@main
         with:
           who-to-target: 'Mona the Octocat'
-     - name: time
-       run: |
-         echo "The time of the greeting was at: ${{ steps.greeting.outputs.time }}"
+      - name: time
+        run: |
+          echo "The time of the greeting was at: ${{ steps.greeting.outputs.time }}"
